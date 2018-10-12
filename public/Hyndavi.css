@@ -1,0 +1,80 @@
+article{
+background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+color: black;
+border: 2px solid purple ;
+border-width : 4px;
+border-color: cyan;
+}
+
+header{
+
+	
+	color : #990000;
+	border: 2px cyan;
+	font-size: 60px;
+	text-align: center;
+}
+body{
+	background-image: url("drp.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+} 
+	
+.vid{
+	position: relative;
+}	
+	
+
+
+.Navbar
+{
+    padding: 20px;
+    font-family:italic;
+	font-weight:bold;
+}
+ul.Navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.Navbar {
+    float: left;
+    border-right:1px solid #bbb;
+}
+footer{
+	background-color: #e0677b;
+	font-style: italic;
+	text-align: center;
+	font-size: 14px;
+
+} 
+   
+	.section-header{
+	    
+		background-color: #FA8072;
+}  
+
+		 #future-section{
+			 background-color: 	pink;
+		 }
+		
+			#past-section{
+			 background-color: #FF6EFF;
+		 }
+	#active {
+    background-color: #4CAF50;
+}
+.center
+{
+	text-align:center;
+}
+.aside-header
+{    
+	color:rgb(87, 5, 5);
+	font-style: italic;
+	font-size: 20px;
+	 
+}

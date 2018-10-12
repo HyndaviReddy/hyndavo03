@@ -1,0 +1,61 @@
+.fib {
+  padding: 10px;
+  font-family: italic;
+  font-size: 12px;
+}
+body{
+background-image: url("math.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.fib input[type="text"] {
+  padding: 0 10px;
+  outline: none;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  border: solid thin rgb(247, 19, 114);
+}
+.fib button {
+  background: rgb(218, 233, 10);
+  border: none;
+  height: 30px;
+  line-height: 30px;
+  color: rgb(20, 189, 34);
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#result {
+  padding: 20px 0 0;
+}
+#result strong {
+  color: #ff0000;
+}
+.fib ul {
+  list-style-type: none;
+  margin: 20px 0 0;
+  padding: 0;
+}
+.fib ul li {
+  padding: 8px 10px;
+  background: #05d1c0;
+  color:purple;
+  font-weight: 600;
+}
+.fib ul li:nth-child(2n) {
+  background: #ddab06;
+}
+@media screen and (max-width:720px)
+{
+  .fib input[type="text"],.fib button
+  {
+    width:100%;
+    box-sizing:border-box;
+    margin:10px 0 0;
+  }
+}
