@@ -2,12 +2,16 @@
     "name": "a03",
     "version": "0.0.1",
     "description": "resume app",
+    "scripts": {
+        "start": "node app.js"
+    },
     "main": "app.js",
     "dependencies": {
-        "express": "latest",
-        "morgan": "latest",
         "body-parser": "latest",
-        "ejs": "latest"
+        "ejs": "latest",
+        "express": "latest",
+        "mailgun-js": "^0.22.0",
+        "morgan": "latest"
     },
     "author": "Denise Case",
     "homepage": "https://bitbucket.org/professorcase/a03",
