@@ -39,7 +39,7 @@ app.get("/contact", function (req, res) {
 })
 
 // 5 handle valid POST request
-app.get("/", function (req, res) {
+app.post("/contact", function (req, res) {
 
     var api_key = '1066b065597e1984085e935c93119dd8-4836d8f5-74e0b1fe';
     var domain = 'sandbox29fb830f4ed84298abfe78c42725fe1d.mailgun.org';
@@ -47,13 +47,17 @@ app.get("/", function (req, res) {
 
     var data = {
         from: 'Excited User <postmaster@sandbox29fb830f4ed84298abfe78c42725fe1d.mailgun.org>',
-        to: 'hyndavi.musipatla1996@gmail.com',
+        to: 'hyndavi.musipatla@gmail.com',
         subject: 'Hello',
         text: 'Testing some Mailgun awesomeness!'
     };
 
     mailgun.messages().send(data, function (error, body) {
         console.log(body);
+        if(!error)
+        res.send('Mail sent')
+        else
+        res.send('Mail not sent')
     });
 
 })
